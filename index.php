@@ -11,7 +11,7 @@
 
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
     <meta http-equiv="Expires" content="-1"/>
-    <link rel="stylesheet" type="text/css" href="stylesheetdbz.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 
