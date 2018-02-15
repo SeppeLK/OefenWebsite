@@ -1,5 +1,5 @@
 .title{
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Josefin Slab', bold; 
   color: white;
   background-image: url("images/background.jpg");
@@ -37,6 +37,7 @@ li a {
     padding: 10px 16px;
     text-decoration: none;
     font-family: "Josefin Slab", bold;
+    font-size: 14px;
     
 }
 
