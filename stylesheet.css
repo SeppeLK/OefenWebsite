@@ -44,7 +44,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #595e5a;
+    background: linear-gradient(to top left ,#86b300 ,#d9ff66 );
 }
 
 li {
