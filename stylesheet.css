@@ -3,8 +3,9 @@
   background-image: url("images/background.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-right: 25px;
   text-align: right;
-
+  
 }
 
 body{
