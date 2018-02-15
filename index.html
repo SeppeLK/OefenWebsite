@@ -15,21 +15,38 @@
     <meta http-equiv="Expires" content="-1"/>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+</head>
+<body>
+    <div class="preloading"></div>
     <script>
         $(window).load(function() {
             $(".preloading").fadeOut("slow");;
         });
     </script>
-</head>
-<body>
-    <div class="preloading"></div>
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
     <div class="title"> <h1> Oefenpagina Seppe en Dries </h1> </div>
-        
+
     <ul>
-        <li><a href="index.html">Home</a> </li>
+        <li><a href="index.html">Home</a></li>
     </ul>
 
-    
-    
+
 </body>
 </html>
