@@ -1,42 +1,21 @@
-.title {
-    font-size: 30px;
-    font-family: 'Josefin Slab', bold;
-    color: white;
-    background-image: url("images/background.jpg");
-    padding-top: 200px;
-    padding-bottom: 200px;
-    padding-right: 25px;
-    text-align: right;
-
+.title{
+  font-size: 30px;
+  font-family: 'Josefin Slab', bold; 
+  color: white;
+  background-image: url("images/background.jpg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right: 25px;
+  text-align: right;
+  
 }
 
-.no-js #loader {
-    display: none;
-}
+body{
 
-.js #loader {
-    display: block;
-    position: absolute;
-    left: 100px;
-    top: 0;
-
-}
-
-.preloading {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(images/preloader.gif) center no-repeat #fff;
-}
-
-body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 ul {
@@ -44,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #595e5a;
+    background: linear-gradient(to top left ,#86b300 ,#d9ff66 ); 
 }
 
 li {
@@ -60,7 +39,10 @@ li a {
     font-family: 'Josefin Slab', bold;
     font-size: 20px;
     font-weight: 900;
+  
+    
 }
+
 
 li a:hover {
     background-color: #196619;
