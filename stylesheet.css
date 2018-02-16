@@ -70,4 +70,7 @@ li a:active {
     background-color:  #196619;
 }
 
-
+profilepicture{
+        width: 150px;
+        height: 150px;
+    }
