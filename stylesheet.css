@@ -84,4 +84,8 @@ footer{
 p{
   font-family: 'Josefin Slab', bold; 
   color: white;
+  font-size: 14px;
     }
+a{
+    color: white;
+}
