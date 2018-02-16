@@ -74,3 +74,8 @@ li a:active {
         width: 150px;
         height: auto;
     }
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to top left ,#86b300 ,#d9ff66 );
+    }
