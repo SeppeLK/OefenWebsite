@@ -2,7 +2,15 @@ h2{
     font-family: 'Josefin Slab', bold;
     font-size: 25px;
     padding-left: 16px; 
-    box-shadow: 10px 10px 10px 10px #86b300 ;
+    color: black;
+    padding: 10px 16px 10px 16px;
+    margin: 10px 10px 10px 10px;
+    box-sizing: content-box;
+    border-left-style: solid;
+    border-left-color: #86b300;
+    border-width: 3px;
+    
+    
 }
 
 .title {
@@ -37,6 +45,7 @@ h2{
     height: 100%;
     z-index: 9999;
     background: url(images/preloader.gif) center no-repeat #fff;
+    
 }
 
 body {
@@ -96,3 +105,4 @@ p{
 a{
     color: white;
 }
+
