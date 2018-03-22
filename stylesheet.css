@@ -2,6 +2,7 @@ h2{
     font-family: 'Josefin Slab', bold;
     font-size: 25px;
     padding-left: 16px; 
+    box-shadow: 10px 10px 10px 10px #86b300 ;
 }
 
 .title {
