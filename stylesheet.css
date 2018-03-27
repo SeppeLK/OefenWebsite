@@ -1,3 +1,24 @@
+div.pfcontainer{
+    font-family:'Josefin Slab', bold;
+    
+}
+div.profilepicture{
+    border-radius: 20%;
+    content:url(images/profilepictureseppe.jpg);
+    width: 200px;
+    padding: 16px;
+}
+.footertext{
+    font-family: 'Josefin Slab', bold; 
+    color: white;
+    font-size: 14px;  
+}
+
+.intro{
+    font-family: 'Josefin Slab', bold;  
+    padding-left: 16px;
+}
+
 h2{
     font-family: 'Josefin Slab', bold;
     font-size: 25px;
@@ -97,12 +118,7 @@ footer{
     bottom: 0px;
     }
     
-p{
-  font-family: 'Josefin Slab', bold; 
-  color: white;
-  font-size: 14px;
-    }
+
 a{
     color: white;
 }
-
