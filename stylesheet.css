@@ -1,28 +1,30 @@
-div.pfcontainer{
-    font-family:'Josefin Slab', bold;
-    
+div.pfcontainer {
+    font-family: 'Josefin Slab', bold;
+
 }
-div.profilepicture{
+
+div.profilepicture {
     border-radius: 20%;
-    content:url(images/profilepictureseppe.jpg);
+    content: url(images/profilepictureseppe.jpg);
     width: 200px;
     padding: 16px;
 }
-.footertext{
-    font-family: 'Josefin Slab', bold; 
+
+.footertext {
+    font-family: 'Josefin Slab', bold;
     color: white;
-    font-size: 14px;  
+    font-size: 14px;
 }
 
-.intro{
-    font-family: 'Josefin Slab', bold;  
+.intro {
+    font-family: 'Josefin Slab', bold;
     padding-left: 16px;
 }
 
-h2{
+h2 {
     font-family: 'Josefin Slab', bold;
     font-size: 25px;
-    padding-left: 16px; 
+    padding-left: 16px;
     color: black;
     padding: 10px 16px 10px 16px;
     margin: 10px 10px 10px 10px;
@@ -30,8 +32,7 @@ h2{
     border-left-style: solid;
     border-left-color: #86b300;
     border-width: 3px;
-    
-    
+
 }
 
 .title {
@@ -66,7 +67,7 @@ h2{
     height: 100%;
     z-index: 9999;
     background: url(images/preloader.gif) center no-repeat #fff;
-    
+
 }
 
 body {
@@ -81,7 +82,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to top left ,#86b300 ,#d9ff66 );
+    background: linear-gradient(to top left, #86b300, #d9ff66);
 }
 
 li {
@@ -102,23 +103,19 @@ li a {
 li a:hover {
     background-color: #196619;
     transition: background-color 0.5s ease;
-    
 
 }
 
-
-    
-footer{
+footer {
     padding-top: 30px;
     padding-bottom: 30px;
-    background: linear-gradient(to top left ,#86b300 ,#d9ff66 );
+    background: linear-gradient(to top left, #86b300, #d9ff66);
     text-align: center;
     position: relative;
-    width:100%;
+    width: 100%;
     bottom: 0px;
-    }
-    
+}
 
-a{
+a {
     color: white;
 }
