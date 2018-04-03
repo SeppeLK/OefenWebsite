@@ -1,3 +1,4 @@
+
 div.pfcontainer {
     font-family: 'Josefin Slab', bold;
     background: linear-gradient(to top left, #86b300, #d9ff66);;
@@ -8,9 +9,7 @@ div.pfcontainer {
     text-align: center;
     border-radius: 20%;
     color: white;
-    font-weight: bold;
-    display: block;
-    
+    font-size: 16px;
 }
 
 div.profilepictureseppe {
