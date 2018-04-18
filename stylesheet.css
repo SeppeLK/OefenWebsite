@@ -1,144 +1,43 @@
-
-div.pfcontainer {
-    font-family: 'Josefin Slab', bold;
-    background: linear-gradient(to top left, #86b300, #d9ff66);;
-    padding: 20px 10px 20px 10px;
-    margin: auto;
-    margin-bottom: 20px;
-    width: 250px;
-    text-align: center;
-    border-radius: 20%;
-    color: white;
-    display: inline-block;
-    font-size: 16px;
-}
-
-div.profilepictureseppe {
-    border-radius: 20%;
-    content: url(images/profilepictureseppe.jpg);
-    width: 200px;
-    padding: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.profilepicturedries {
-    border-radius: 20%;
-    content: url(images/profilepicturedries.jpg);
-    width: 200px;
-    padding: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footertext {
-    font-family: 'Josefin Slab', bold;
-    color: white;
-    font-size: 14px;
-}
-
-.intro {
-    font-family: 'Josefin Slab', bold;
-    padding-left: 16px;
-}
-
-h2 {
-    font-family: 'Josefin Slab', bold;
-    font-size: 25px;
-    padding-left: 16px;
-    color: black;
-    padding: 10px 16px 10px 16px;
-    margin: 10px 10px 10px 10px;
-    box-sizing: content-box;
-    border-left-style: solid;
-    border-left-color: #86b300;
-    border-width: 3px;
-
-}
-
 .title {
     font-size: 30px;
-    font-family: 'Josefin Slab', bold;
     color: white;
     background-image: url("images/background.jpg");
     padding-top: 200px;
     padding-bottom: 200px;
     padding-right: 25px;
     text-align: right;
-
-}
-
-.no-js #loader {
-    display: none;
-}
-
-.js #loader {
-    display: block;
-    position: absolute;
-    left: 100px;
-    top: 0;
-
 }
 
 .preloading {
     position: fixed;
-    left: 0px;
-    top: 0px;
     width: 100%;
     height: 100%;
     z-index: 9999;
     background: url(images/preloader.gif) center no-repeat #fff;
-
 }
 
-body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(to top left, #86b300, #d9ff66);
-}
-
-li {
+.column {
     float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-    font-family: 'Josefin Slab', bold;
-    font-size: 20px;
-    font-weight: 900;
+@media screen and (max-width: 650px) {
+    .column {
+        width: 50%;
+        display: block;
+    }
 }
 
-li a:hover {
-    background-color: #196619;
-    transition: background-color 0.5s ease;
-
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: linear-gradient(to top left, #86b300, #d9ff66);
-    text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 0px;
+.container {
+    padding: 0 16px;
 }
 
-a {
-    color: white;
+.intro {
+    color: grey;
 }
