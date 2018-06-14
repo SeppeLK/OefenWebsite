@@ -1,7 +1,26 @@
+div.socialmediaicons {
+    background-color: black;
+}
+div.facebooklogo {
+    content: url(images/facebooklogo.png);
+}
+
+div.instagramlogo {
+    content: url(images/instagramlogo.png);
+}
+
+div.twitterlogo{
+    content: url(images/twitterlogo.png);
+}
+
+div.githublogo{
+    content: url(images/githublogo.png);
+}
+
 
 div.pfcontainer {
     font-family: 'Josefin Slab', bold;
-    background: linear-gradient(to top left, #86b300, #d9ff66);;
+    background: linear-gradient(to top left, #86b300, #d9ff66);
     padding: 20px 10px 20px 10px;
     
     margin: auto;
@@ -105,7 +124,7 @@ body {
     margin-left: 0px;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -113,11 +132,11 @@ ul {
     background: linear-gradient(to top left, #86b300, #d9ff66);
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -147,3 +166,4 @@ footer {
 a {
     color: white;
 }
+
