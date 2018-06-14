@@ -1,15 +1,27 @@
+.socialmediaicons {
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  margin: 10px auto;
+  line-height: 0;
+}
+
+.center li {
+  display: inline-block;
+  text-align: center;
+}
+
 .socialmediaicons ul {
     background: linear-gradient(to top left, #86b300, #d9ff66);
     list-style-type: none;
+    padding: 10px;
 }
 
-.socialmediaicons li a{
-    display: block;
-}
 
-.socialmediaicons li{
     
-}
+
 div.facebooklogo {
     content: url(images/facebooklogo.png);
     width: 100px;
