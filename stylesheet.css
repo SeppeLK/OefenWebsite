@@ -1,20 +1,37 @@
-div.socialmediaicons {
-    background-color: black;
+.socialmediaicons ul {
+    background: linear-gradient(to top left, #86b300, #d9ff66);
+    list-style-type: none;
+}
+
+.socialmediaicons li a{
+    display: block;
+}
+
+.socialmediaicons li{
+    
 }
 div.facebooklogo {
     content: url(images/facebooklogo.png);
+    width: 100px;
+    
 }
 
 div.instagramlogo {
     content: url(images/instagramlogo.png);
+    width: 100px;
+   
 }
 
 div.twitterlogo{
     content: url(images/twitterlogo.png);
+    width: 100px;
+    
 }
 
 div.githublogo{
     content: url(images/githublogo.png);
+    width: 100px;
+    
 }
 
 
@@ -147,7 +164,7 @@ body {
     font-weight: 900;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #196619;
     transition: background-color 0.5s ease;
 
