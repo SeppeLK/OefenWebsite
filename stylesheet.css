@@ -3,11 +3,16 @@ div.pfcontainer {
     font-family: 'Josefin Slab', bold;
     background: linear-gradient(to top left, #86b300, #d9ff66);;
     padding: 20px 10px 20px 10px;
+    
     margin: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
     width: 250px;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 0%;
     color: white;
     display: inline-block;
     font-size: 16px;
