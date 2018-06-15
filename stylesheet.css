@@ -1,10 +1,15 @@
 .socialmediaicons {
   width: 100%;
   text-align: center;
+  
+  
 }
 
 .center {
-  margin: 10px auto;
+  margin-left: 690px;
+  margin-right: 690px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 0;
 }
 
@@ -24,25 +29,27 @@
 
 div.facebooklogo {
     content: url(images/facebooklogo.png);
-    width: 100px;
+    width: 30px;
+    margin-right: 10px;
     
 }
 
 div.instagramlogo {
     content: url(images/instagramlogo.png);
-    width: 100px;
-   
+    width: 30px;
+    margin-right: 10px;
 }
 
 div.twitterlogo{
     content: url(images/twitterlogo.png);
-    width: 100px;
+    width: 30px;
+    margin-right: 10px;
     
 }
 
 div.githublogo{
     content: url(images/githublogo.png);
-    width: 100px;
+    width: 30px;
     
 }
 
