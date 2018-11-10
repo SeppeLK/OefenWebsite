@@ -1,21 +1,20 @@
 .socialmediaicons {
-  width: 100%;
-  text-align: center;
-  
-  
+    width: 100%;
+    text-align: center;
+
 }
 
 .center {
-  margin-left: 690px;
-  margin-right: 690px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 0;
+    margin-left: 690px;
+    margin-right: 690px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 0;
 }
 
 .center li {
-  display: inline-block;
-  text-align: center;
+    display: inline-block;
+    text-align: center;
 }
 
 .socialmediaicons ul {
@@ -24,14 +23,11 @@
     padding: 10px;
 }
 
-
-    
-
 div.facebooklogo {
     content: url(images/facebooklogo.png);
     width: 30px;
     margin-right: 10px;
-    
+
 }
 
 div.instagramlogo {
@@ -40,31 +36,30 @@ div.instagramlogo {
     margin-right: 10px;
 }
 
-div.twitterlogo{
+div.twitterlogo {
     content: url(images/twitterlogo.png);
     width: 30px;
     margin-right: 10px;
-    
+
 }
 
-div.githublogo{
+div.githublogo {
     content: url(images/githublogo.png);
     width: 30px;
-    
-}
 
+}
 
 div.pfcontainer {
     font-family: 'Josefin Slab', bold;
     background: linear-gradient(to top left, #86b300, #d9ff66);
     padding: 20px 10px 20px 10px;
-    
+
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    
+
     width: 250px;
     text-align: center;
     border-radius: 0%;
