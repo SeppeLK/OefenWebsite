@@ -202,8 +202,10 @@ a {
 
 .practice{
     margin-left: 20px;
-    padding-bottom: 20px;
-   
+    padding-bottom: 50px;
+    width: 400px;
+    height: auto;
+    content: url(images/practice.jpg);
     
 }
 
