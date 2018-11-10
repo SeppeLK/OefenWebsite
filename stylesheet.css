@@ -96,7 +96,9 @@ div.profilepicturedries {
 
 .intro {
     font-family: 'Josefin Slab', bold;
-    padding-left: 16px;
+    padding-left: 20px;
+    padding-right: 800px;
+    line-height: 25px;
 }
 
 h2 {
@@ -196,5 +198,10 @@ footer {
 
 a {
     color: white;
+}
+
+.practice{
+    margin-left: 20px;
+    padding-bottom: 20px;
 }
 
