@@ -183,7 +183,7 @@ body {
 
 .navbar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background: linear-gradient(to top left, #86b300, #d9ff66);
@@ -202,11 +202,15 @@ body {
     font-family: 'Josefin Slab', bold;
     font-size: 20px;
     font-weight: 900;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 
 .navbar li a:hover {
-    background-color: #196619;
-    transition: background-color 0.5s ease;
+    
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
