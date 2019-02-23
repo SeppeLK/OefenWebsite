@@ -120,7 +120,7 @@ div.profilepicturedries {
 div.intro {
     font-family: 'Josefin Slab', bold;
     padding-left: 20px;
-    padding-right: auto;
+    padding-right: 50px;;
     line-height: 25px;
     margin-top: 30px;
     float: left;
@@ -139,8 +139,9 @@ h2 {
     border-left-style: solid;
     border-left-color: #86b300;
     border-width: 3px;
-
+    
 }
+
 
 h4{
     font-family: 'Josefin Slab', bold;
@@ -246,10 +247,9 @@ a {
 
 div.practice{
     margin-left: 20px;
-    padding-bottom: 50px;
-    padding-left: 100px;
     content: url(images/practice.jpg);
     width: 20%;
+    transition: transform 1s, width 1s;
     
     
 }
@@ -257,7 +257,8 @@ div.practice{
 .practice:hover{
     opacity: 0.5;
     filter: alpha(opacity=50);
-    float: left;
+    transform: rotate(25deg);
+    width: 30%
     
 }
 
@@ -291,17 +292,24 @@ iframe{
     background: linear-gradient(to top left, #86b300, #d9ff66);
     padding: 11px 20px 10px 20px;
     font-family: 'Josefin Slab', bold;
+    margin: auto;
+    
 
 }
 
 .reserveer:hover{
     opacity: 0.5;
-    transition: opacity 0.5s;
-    
+    transition: opacity 0.5s;   
 }
 
 .reserveercontainer{
     text-align: center;
-    margin: 20px;
+    transition: transform 1s;
+    margin: auto;
+    width: 165px;
+}
+
+.reserveercontainer:hover{
+    transform: scale(1.5, 1.5);
 }
 
